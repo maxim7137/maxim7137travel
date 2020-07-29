@@ -1,0 +1,113 @@
+body {
+    background-color: #e8e8e8;
+    color: #273d46;
+}
+
+section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+div.lines {
+    background: url("../img/Lines.png") no-repeat;
+    margin: 100px 0 0 0;
+}
+
+div.container {
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+div.lines p.partition {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.6;
+    letter-spacing: 0.5em;
+    padding-top: 60px;
+    margin: 0px;
+}
+
+div.lines div.center h1 {
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+div.picture {
+    max-width: 840px;
+    margin: 51px auto;
+}
+
+div.picture img {
+    width: 100%;
+    border: 5px solid #fff;
+}
+
+div.left p {
+    font-size: 24px;
+    line-height: 40px;
+    opacity: 0.8;
+}
+
+div.left div.list {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+    list-style: none;
+    margin-top: 40px;
+}
+
+div.left div.list ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+div.left div.list ul li {
+    padding-inline-start: 40px;
+    background: url(../img/list-item-icon.png) left no-repeat;
+}
+
+div.left div.list ul li.italic {
+    font-style: italic;
+    color: #80b7b3;
+}
+div.left div.list ul li.bold {
+    font-weight: bold;
+}
+
+div.left div.list ul li.deleted span {
+    text-decoration: line-through;
+    opacity: .3;
+}
+
+div.left div.button a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    width: 200px;
+    height: 45px;
+    background: #80b7b3;
+    text-align: center;
+    font-size: 14px;
+    line-height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    border-radius: 23px;
+    letter-spacing: 0.2em;
+    margin: 50px 0 100px;
+    transition-property: all;
+    transition-duration: 100ms;
+    box-shadow: 1px 1px 3px #2b2b2b;
+}
+
+div.left div.button a:hover, div.left div.button a:focus {
+    box-shadow: 3px 3px 5px 2px #2b2b2b;
+}
+
+div.left div.button a:active {
+    box-shadow: 1px 1px 1px #2b2b2b;
+}
